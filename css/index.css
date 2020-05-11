@@ -135,10 +135,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
+  border: solid 2px red;
 }
 .container {
   width: 60%;
@@ -146,6 +143,7 @@ body {
 }
 header {
   background-color: lightgrey;
+  padding-bottom: 8%;
 }
 header nav {
   display: flex;
@@ -179,8 +177,30 @@ header .topsection p {
 header .buttonsection p {
   margin-top: 5%;
   padding-left: 2%;
+  font-family: 'EB Garamond', serif;
 }
 header .buttonsection button {
   margin-left: 2%;
   margin-top: 2%;
+  background-color: gray;
+  color: white;
+  padding: 0.9%;
+}
+.middlesection {
+  display: flex;
+  flex-direction: row;
+}
+.middlesection div:nth-child(1) {
+  background-color: yellow;
+  width: 50%;
+  margin-right: 4%;
+}
+.middlesection h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 5%;
+}
+.middlesection p {
+  font-family: 'EB Garamond', serif;
 }

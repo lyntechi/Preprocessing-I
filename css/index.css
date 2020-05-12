@@ -135,7 +135,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
-  border: solid 2px red;
 }
 .container {
   width: 60%;
@@ -144,12 +143,13 @@ table {
 header {
   background-color: lightgrey;
   padding-bottom: 8%;
+  margin-bottom: 3%;
 }
 header nav {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 3% 0;
+  padding: 2% 0;
   background-color: white;
 }
 header nav a {
@@ -160,8 +160,14 @@ header nav a {
   font-family: 'EB Garamond', serif;
 }
 header .topsection .picturesection img {
-  width: 20%;
+  min-width: 210px ;
+  min-height: 250px ;
+  max-width: 500px;
+  max-height: 500px ;
+  width: 20vw;
+  height: 20vw;
   padding-left: 2%;
+  margin-top: 4%;
 }
 header .topsection h1 {
   font-size: 2.5rem;
@@ -173,11 +179,14 @@ header .topsection p {
   padding-left: 1.4%;
   font-family: 'EB Garamond', serif;
   font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 3.5%;
 }
 header .buttonsection p {
   margin-top: 5%;
   padding-left: 2%;
   font-family: 'EB Garamond', serif;
+  font-weight: bold;
 }
 header .buttonsection button {
   margin-left: 2%;
@@ -189,9 +198,9 @@ header .buttonsection button {
 .middlesection {
   display: flex;
   flex-direction: row;
+  margin-bottom: 3%;
 }
 .middlesection div:nth-child(1) {
-  background-color: yellow;
   width: 50%;
   margin-right: 4%;
 }
@@ -203,4 +212,68 @@ header .buttonsection button {
 }
 .middlesection p {
   font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+.middlesection h3 {
+  font-size: 1.3rem;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+.middlesection li {
+  border: 0.5px solid gainsboro;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  padding: 3.2%;
+}
+.middlesection .rightsection {
+  width: 50%;
+}
+.tablesection {
+  width: 100%;
+  margin: 0 auto;
+}
+.tablesection table {
+  width: 100%;
+}
+.tablesection table thead {
+  border-top: solid 1px gainsboro;
+  border-bottom: solid 1px gainsboro;
+  padding: 1.2px 0;
+}
+.tablesection table thead th {
+  padding: 2% 0;
+  text-align: center;
+  font-weight: bold;
+}
+.tablesection table thead tr {
+  border-bottom: solid 1px gainsboro;
+}
+.tablesection table tbody tr:nth-child(1) {
+  background-color: gainsboro;
+}
+.tablesection table tbody tr:nth-child(3) {
+  background-color: gainsboro;
+}
+.tablesection table tbody td {
+  text-align: center;
+  padding: 2% 0;
+}
+.tablesection h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+footer {
+  background-color: grey;
+  width: 100%;
+  padding: 2.2%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+footer h5 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  margin: 2% 0;
 }

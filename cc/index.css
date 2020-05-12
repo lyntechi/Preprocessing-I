@@ -275,6 +275,7 @@ header .buttonsection button {
   }
 }
 .middlesection li {
+  border: red 2px solid;
   border: 0.5px solid gainsboro;
   font-weight: bold;
   font-family: 'EB Garamond', serif;
@@ -291,9 +292,7 @@ header .buttonsection button {
   .middlesection .leftsection {
     background-color: lightpink;
     color: darkred;
-    margin-bottom: 3%;
-    padding: 5%;
-    border-radius: 25px;
+    border: red 2px solid;
   }
 }
 .middlesection .rightsection {

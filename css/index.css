@@ -137,7 +137,7 @@ table {
   box-sizing: border-box;
 }
 .container {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
@@ -293,7 +293,6 @@ header .buttonsection button {
     color: darkred;
     margin-bottom: 3%;
     padding: 5%;
-    border-radius: 25px;
   }
 }
 .middlesection .rightsection {

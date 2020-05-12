@@ -274,93 +274,94 @@ header .buttonsection button {
     color: darkred;
   }
 }
-.middlesection h3 li {
-  border: red 2px solid;
+.middlesection li {
   border: 0.5px solid gainsboro;
   font-weight: bold;
   font-family: 'EB Garamond', serif;
   padding: 3.2%;
 }
 @media (max-width: 500px) {
-  .middlesection h3 li {
+  .middlesection li {
     background-color: lightpink;
     color: darkred;
     font-weight: bold;
   }
 }
 @media (max-width: 500px) {
-  .middlesection h3 .leftsection {
+  .middlesection .leftsection {
     background-color: lightpink;
     color: darkred;
-    border: red 2px solid;
+    margin-bottom: 3%;
+    padding: 5%;
+    border-radius: 25px;
   }
 }
-.middlesection h3 .rightsection {
+.middlesection .rightsection {
   width: 50%;
 }
 @media (max-width: 500px) {
-  .middlesection h3 .rightsection {
+  .middlesection .rightsection {
     width: 100%;
   }
 }
 @media (max-width: 500px) {
-  .middlesection h3 {
+  .middlesection {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
 }
-.middlesection .tablesection {
+.tablesection {
   width: 100%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
-  .middlesection .tablesection h3 {
+  .tablesection h3 {
     color: darkred;
   }
 }
-.middlesection .tablesection table {
+.tablesection table {
   width: 100%;
 }
-.middlesection .tablesection table thead {
+.tablesection table thead {
   border-top: solid 1px gainsboro;
   border-bottom: solid 1px gainsboro;
   padding: 1.2px 0;
 }
-.middlesection .tablesection table thead th {
+.tablesection table thead th {
   padding: 2% 0;
   text-align: center;
   font-weight: bold;
 }
-.middlesection .tablesection table thead tr {
+.tablesection table thead tr {
   border-bottom: solid 1px gainsboro;
 }
-.middlesection .tablesection table tbody tr:nth-child(1) {
+.tablesection table tbody tr:nth-child(1) {
   background-color: gainsboro;
 }
-.middlesection .tablesection table tbody tr:nth-child(3) {
+.tablesection table tbody tr:nth-child(3) {
   background-color: gainsboro;
 }
-.middlesection .tablesection table tbody td {
+.tablesection table tbody td {
   text-align: center;
   padding: 2% 0;
 }
 @media (max-width: 500px) {
-  .middlesection .tablesection table tbody td {
+  .tablesection table tbody td {
     color: darkred;
   }
 }
 @media (max-width: 500px) {
-  .middlesection .tablesection table {
+  .tablesection table {
     background-color: lightpink;
   }
 }
-.middlesection .tablesection h3 {
+.tablesection h3 {
   font-weight: bold;
   font-size: 1.3rem;
 }
-.middlesection footer {
+footer {
   background-color: grey;
   width: 100%;
   padding: 2.2%;
@@ -368,11 +369,11 @@ header .buttonsection button {
   margin-top: 3%;
 }
 @media (max-width: 500px) {
-  .middlesection footer {
+  footer {
     background-color: lightgray;
   }
 }
-.middlesection footer h5 {
+footer h5 {
   text-align: center;
   color: black;
   font-weight: bold;
@@ -382,7 +383,7 @@ header .buttonsection button {
   font-style: italic;
 }
 @media (max-width: 500px) {
-  .middlesection footer h5 {
+  footer h5 {
     color: darkred;
   }
 }
